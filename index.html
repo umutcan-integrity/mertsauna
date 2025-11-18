@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mert Sauna - Mimarlık & Tasarım Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hamburger Menu Button -->
+    <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Sol Menü -->
+    <nav class="sidebar" id="sidebar">
+        <div class="logo">
+            <img src="logo.png" alt="Mert Sauna Logo" class="logo-image">
+            <h1>MERT SAUNA</h1>
+            <p class="tagline">Mimarlık & Tasarım</p>
+        </div>
+        
+        <div class="menu">
+            <div class="menu-section">
+                <h3>HİZMETLER</h3>
+                <ul>
+                    <li><a href="#residential">Konut Saunaları</a></li>
+                    <li><a href="#commercial">Ticari Projeler</a></li>
+                    <li><a href="#wellness">Wellness Merkezleri</a></li>
+                    <li><a href="#consultation">Tasarım Danışmanlığı</a></li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h3>PORTFÖY</h3>
+                <ul>
+                    <li><a href="#completed">Tamamlanan Projeler</a></li>
+                    <li><a href="#ongoing">Devam Eden Projeler</a></li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h3>KURUMSAL</h3>
+                <ul>
+                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ana İçerik -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="logo.png" alt="Mert Sauna">
+                </div>
+                <h1 class="hero-title">Tasarımla<br>Sağlık Yaratmak</h1>
+                <p class="hero-subtitle">Geleneksel sauna mimarisini çağdaş zarafetle birleştiren özel tasarımlar</p>
+            </div>
+        </section>
+
+        <!-- Projeler -->
+        <section class="projects">
+            <div class="section-header">
+                <h2>Öne Çıkan Projeler</h2>
+                <p>Lüks sauna ve wellness alanları portföyümüzü keşfedin</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Proje 1 -->
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-image">
+                            <img src="sauna1_eskiz.png" class="sketch-image" alt="Luxury Sauna Sketch">
+                            <img src="sauna1.jpg" class="real-image" alt="Luxury Sauna">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-number">01</div>
+                        <h3>Lüks Sauna Kompleksi</h3>
+                        <p class="project-location">İstanbul, Türkiye • 2024</p>
+                        <p class="project-description">Geleneksel Fin sauna tasarımını çağdaş Türk mimari unsurlarıyla sorunsuzca birleştiren 150m² lüks wellness tesisi. Özel ahşap seçimi ve hassas işçilik.</p>
+                        <div class="project-specs">
+                            <span>150 m²</span>
+                            <span>15 kW Isıtma</span>
+                            <span>Premium Fin Ahşabı</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 2 -->
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-image">
+                            <img src="sauna2_eskiz.png" class="sketch-image" alt="Wellness Center Sketch">
+                            <img src="sauna2.jpg" class="real-image" alt="Wellness Center">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-number">02</div>
+                        <h3>Wellness & Spa Merkezi</h3>
+                        <p class="project-location">Ankara, Türkiye • 2024</p>
+                        <p class="project-description">Doğal malzemeleri yenilikçi ısıtma teknolojisiyle birleştirerek optimal rahatlama sağlayan modern wellness sığınağı. Çok seviyeli oturma düzeni ve ortam sıcaklığı için entegre aydınlatma tasarımı.</p>
+                        <div class="project-specs">
+                            <span>200 m²</span>
+                            <span>Akıllı İklim Kontrolü</span>
+                            <span>Doğal Taş Detaylar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proje 3 -->
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <div class="project-image">
+                            <img src="sauna3_eskiz.png" class="sketch-image" alt="Private Spa Sketch">
+                            <img src="sauna3.jpg" class="real-image" alt="Private Spa">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-number">03</div>
+                        <h3>Özel Spa Villası</h3>
+                        <p class="project-location">Bodrum, Türkiye • 2023</p>
+                        <p class="project-description">Panoramik Ege Denizi manzaralı özel konut sauna ve spa kompleksi. Özel tasarım ahşap kaplamalar ve yıl boyunca mükemmel iklim kontrolü sağlayan özel tasarımlı havalandırma sistemi.</p>
+                        <div class="project-specs">
+                            <span>120 m²</span>
+                            <span>Deniz Manzarası</span>
+                            <span>Özel Tasarım</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Kartı Bölümü -->
+        <section class="contact-card-section" id="contact">
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h2>Hayalinizdeki Sauna'yı Birlikte Tasarlayalım</h2>
+                    <p>Premium sauna ve wellness projeleri için bizimle iletişime geçin. Uzman ekibimiz size özel çözümler sunmak için hazır.</p>
+                </div>
+                <div class="business-card">
+                    <img src="freshstudiokartvizit.png" alt="Mert Sauna İletişim Kartı" class="card-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Mert Sauna - Mimarlık & Tasarım Studio. Tüm hakları saklıdır.</p>
+        </footer>
+    </main>
+
+    <script>
+        // Menü toggle işlevi
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        menuToggle.addEventListener('click', function() {
+            sidebar.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Menü dışına tıklandığında menüyü kapat
+        document.addEventListener('click', function(event) {
+            const isClickInsideSidebar = sidebar.contains(event.target);
+            const isClickOnToggle = menuToggle.contains(event.target);
+            
+            if (!isClickInsideSidebar && !isClickOnToggle && sidebar.classList.contains('active')) {
+                sidebar.classList.remove('active');
+                menuToggle.classList.remove('active');
+            }
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Mobilde menüyü kapat
+                    if (window.innerWidth <= 768) {
+                        sidebar.classList.remove('active');
+                        menuToggle.classList.remove('active');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
