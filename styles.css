@@ -185,7 +185,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 60px;
+    padding: 10px 60px;
     background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-medium) 100%);
     text-align: center;
     border-bottom: 1px solid var(--border);
@@ -196,7 +196,7 @@ body {
 }
 
 .hero-logo {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .hero-logo img {
